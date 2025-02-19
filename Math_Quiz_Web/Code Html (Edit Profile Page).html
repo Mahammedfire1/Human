@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="Code Css.css">
+</head>
+
+<body>
+    <div class="edit-profile-lets-go">
+        <h1>Edit Profile</h1>
+
+        <form id="editProfileForm" class="edit-profile-form">
+            <div class="form-group">
+                <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <input type="number" id="phone" name="phone" min="0" placeholder="Phone" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="address" name="address" placeholder="Address" required>
+            </div>
+
+            <div class="form-group">
+                <textarea id="bio" name="bio" placeholder="Tell us about yourself..." rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="save-changes-btn">Save Changes</button>
+
+            <a href="Code Html (Profile Page).html" class="submit">Back To Profile</a>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('editProfileForm').addEventListener('submit', function (event)
+        {
+            event.preventDefault();
+            alert('Your profile has been updated successfully!');
+        });
+    </script>
+</body>
+
+</html>

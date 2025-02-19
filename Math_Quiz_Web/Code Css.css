@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('Math.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.lets-go {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 35px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.go-1 {
+    width: 100%;
+    height: 34px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;  
+    padding-top: 4px;
+}
+
+.go-2 {
+    width: 100%;
+    height: 26px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+input[type="button"]:hover,
+.go-1:hover,
+.go-2:hover {
+    background-color: #45a049;
+}
+
+.top-right-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.info img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+}
+
+.questions {
+    margin-top: 20px;
+}
+
+.question-form {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.answer-options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-options li {
+    margin-bottom: 10px;
+}
+
+.answer-options label {
+    display: block;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 35px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 3px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.quiz-completed-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.important {
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+.space {
+    padding-top: 10px;
+}
+
+.profile-lets-go {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    flex: 0 0 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.bio {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.edit-profile-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.edit-profile-btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-details,
+.about,
+.recent-activity,
+.performance-metrics {
+    margin-bottom: 20px;
+}
+
+.contact-details ul,
+.recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details ul li,
+.recent-activity ul li {
+    margin: 5px 0;
+}
+
+.contact-details strong {
+    font-weight: bold;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.recent-activity ul li {
+    margin: 10px 0;
+}
+
+.performance-metrics .metrics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.performance-metrics .metric {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.performance-metrics .metric:last-child {
+    margin-right: 0;
+}
+
+.performance-metrics h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.performance-metrics p {
+    margin: 5px 0 0;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.start-quiz {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.start-quiz:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+}
+
+.edit-profile-lets-go {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.edit-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.save-changes-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.save-changes-btn:hover {
+    background-color: #45a049;
+}
